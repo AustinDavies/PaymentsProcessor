@@ -6,7 +6,7 @@ namespace PaymentsProcessor.Factories {
 	/// <summary>
 	/// Factory class used for IoC container setup. Interface should be used as the user facing dependency.
 	/// </summary>
-	internal class PaymentsProcessorFactory : IPaymentsProcessorResolver {
+	public class PaymentsProcessorFactory : IPaymentsProcessorResolver {
 
 		private Dictionary<int, IPaymentProcessor> clients;
 
